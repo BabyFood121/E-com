@@ -231,6 +231,7 @@ FEATURES
 
  .books{
     display: flex;
+    flex-wrap: wrap;
  }
 
  .book{
@@ -278,4 +279,22 @@ FEATURES
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+/* 
+
+below
+
+*/
+
+#below{
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+.above__footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
