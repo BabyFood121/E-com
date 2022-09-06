@@ -331,6 +331,9 @@ FEATURES
     max-height: 380px;
     transition: all 300ms ease;
     cursor: not-allowed;
+
+    object-fit: contain;
+    object-position: left;
 }
 
 .book__img--wrapper{
